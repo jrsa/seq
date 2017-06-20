@@ -20,3 +20,8 @@ flash: all
 	$(AVR) $(AVRFLAGS) flash:w:$(TARGET).hex
 
 all: $(TARGET)
+
+clean:
+	rm *.hex
+	rm *.map
+	rm *.out
