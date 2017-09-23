@@ -2,3 +2,5 @@
 *.map
 *.out
 *.hex
+pcb/seq-cache.lib
+pcb/seq.bak
